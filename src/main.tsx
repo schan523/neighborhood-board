@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './layouts/App.tsx'
 import Home from './components/Home.tsx'
 import Create from './components/Create.tsx'
+import Noticed from './components/Noticed.tsx'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
         path: "/create",
         element: <Create />,
       }, 
+      {
+        path: "/noticed",
+        element: <Noticed />
+      },
       { 
         index: true,
         element: <Home />  
