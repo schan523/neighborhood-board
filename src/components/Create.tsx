@@ -1,3 +1,13 @@
+import './Create.css'
+
 export default function Create() {
-    return <h1>This is the Create page</h1>;
+    return (
+        <form>
+            <label>Enter your name:
+                <input type="text" />
+            </label>
+        </form>
+    );
 }
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<Create />);
