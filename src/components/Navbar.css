@@ -1,3 +1,13 @@
 .navbar {
-    background: linear-gradient(0deg,rgba(105,145,214,.08),rgba(105,145,214,.08)),#fff;
+    background: linear-gradient(0deg,rgba(105,145,214,.08),rgba(105,145,214, .08)),#fff;
+    padding: 10px;
+}
+
+.link-border {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
 }
