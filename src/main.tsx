@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './layouts/App.tsx'
 import Home from './components/Home.tsx'
+import Create from './components/Create.tsx'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -11,10 +12,12 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-    //     path: "/",
-    //     element: ,
-      index: true,
-      element: <Home />  
+        path: "/create",
+        element: <Create />,
+      }, 
+      { 
+        index: true,
+        element: <Home />  
       }
     ]
   }
