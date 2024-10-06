@@ -3,15 +3,20 @@ import './Home.css'
 export default function Home() {
     return (
         <div id ='homepage'>
-            <aside>
-                <h2>Profile</h2>
+            <div id = 'aside'>
+                <h2>Noticings</h2>
                 <ul>
-                    <li>Account</li>
-                    <li>Receipts</li>
-                    <li>Preferences</li>
+                    <li><a href ='#'>most recent visted post</a></li>
+                    <li><a href ='#'>second most recent visted post</a></li>
+                    <li><a href ='#'>third most recent visted post</a></li>
                 </ul>
-            </aside>
-            <h2>homepage</h2>
+            </div>
+            <div id = 'main'>
+                <div id='feed'>
+                    <p>cards will go here</p>
+                </div>
+
+            </div>
         </div>
         
     );
