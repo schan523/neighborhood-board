@@ -1,10 +1,13 @@
+#createFeed{
+    text-align: center;
+}
 .social-media-wrapper{
     background-color:rgb(231, 231, 231);
     border-radius: 25px;
     width: 90%;
-    position: absolute;
+    /* position: absolute;
     top: 15%;
-    left: 5%;
+    left: 5%; */
 }
 .social-media-header{
     margin-top: 2em;
@@ -22,9 +25,9 @@
     border-radius: 200px;
     margin-right: .5em;
 }
-#social-media-create{
+/* #social-media-create{
     text-align: center;
-}
+} */
 input[type=text], select {
     width: 90%;
     padding: 12px 20px;
