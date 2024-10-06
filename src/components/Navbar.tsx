@@ -4,7 +4,7 @@ import './Navbar.css'
 export default function Navbar() {
     return(
         <div className="navbar">
-            <div class="link-border">
+            <div className="link-border">
                 <Link to="">
                     <span>Neighborhood-Board</span>
                 </Link>  
