@@ -48,3 +48,8 @@ export default tseslint.config({
   },
 })
 ```
+## Startup
+Assuming NodeJS and npm have already been installed, simply run 
+```
+npm install
+```
