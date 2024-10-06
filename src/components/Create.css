@@ -1,3 +1,60 @@
-h1{
-    /* background-color: blue; */
+.social-media-wrapper{
+    background-color:rgb(231, 231, 231);
+    border-radius: 25px;
+    width: 90%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
 }
+.social-media-header{
+    margin-top: 2em;
+    margin-left :4em;
+    
+    /* display: inline; */
+}
+.username{
+    display:inline;
+    position: absolute;
+ }
+.imgProfile{
+    width:50px;
+    height:50px;
+    border-radius: 200px;
+    margin-right: .5em;
+}
+#social-media-create{
+    text-align: center;
+}
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
