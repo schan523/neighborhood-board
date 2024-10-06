@@ -14,8 +14,8 @@ export default function Home() {
             <div id = 'main'>
                 <div id='feed'>
                     <p>cards will go here</p>
-                    <div class= 'social-media-wrapper'>
-                        
+                    <div className= 'social-media-post-wrapper'>
+
                     </div>
                     
                 </div>
